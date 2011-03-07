@@ -1,0 +1,10 @@
+  <p><%= label_tag "ldap_search", l(:label_ldap_search) %>
+  <%= text_field_tag :ldap_search, nil, :class => 'w100p'  %></p>
+  <%= observe_field(:ldap_search,
+   :frequency => 1.5,
+   :update => :ldap_users,
+   :url => { :controller => :auth_sources, :action => 'autocomplete_for_ldap_users' },
+   :with => 'q') %>
+
+  <div id="ldap_users">
+  </div>

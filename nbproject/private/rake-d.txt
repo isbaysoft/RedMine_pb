@@ -1,0 +1,191 @@
+ci=Run the Continous Integration tests for Redmine
+ci\:build=Build Redmine
+ci\:dump_environment=Dump the environment information to a BUILD_ENVIRONMENT ENV variable for debugging
+ci\:setup=Setup Redmine for a new build.
+ci\:teardown=Finish the build
+config/initializers/session_store.rb=Generates a configuration file for cookie store sessions.
+db\:abort_if_pending_migrations=Raises an error if there are pending migrations
+db\:charset=Retrieves the charset for the current environment's database
+db\:collation=Retrieves the collation for the current environment's database
+db\:create=Create the database defined in config/database.yml for the current RAILS_ENV
+db\:create\:all=Create all the local databases defined in config/database.yml
+db\:decrypt=Decrypts SCM and LDAP passwords in the database.
+db\:drop=Drops the database for the current RAILS_ENV
+db\:drop\:all=Drops all the local databases defined in config/database.yml
+db\:encrypt=Encrypts SCM and LDAP passwords in the database.
+db\:fixtures\:identify=Search for a fixture given a LABEL or ID. Specify an alternative path (eg. spec/fixtures) using FIXTURES_PATH=spec/fixtures.
+db\:fixtures\:load=Load fixtures into the current environment's database.  Load specific fixtures using FIXTURES=x,y. Load from subdirectory in test/fixtures using FIXTURES_DIR=z. Specify an alternative path (eg. spec/fixtures) using FIXTURES_PATH=spec/fixtures.
+db\:fixtures\:plugins\:load=Load plugin fixtures into the current environment's database.
+db\:load_config=
+db\:migrate=Migrate the database through scripts in db/migrate and update db/schema.rb by invoking db:schema:dump. Target specific version with VERSION=x. Turn off output with VERBOSE=false.
+db\:migrate\:all=Migrate database and plugins to current status.
+db\:migrate\:down=Runs the "down" for a given migration VERSION.
+db\:migrate\:plugin=Migrate a specified plugin.
+db\:migrate\:plugins=Migrate plugins to current status.
+db\:migrate\:redo=Rollbacks the database one migration and re migrate up. If you want to rollback more than one step, define STEP=x. Target specific version with VERSION=x.
+db\:migrate\:reset=Resets your database using your migrations for the current environment
+db\:migrate\:up=Runs the "up" for a given migration VERSION.
+db\:migrate\:upgrade_plugin_migrations=For engines coming from Rails version < 2.0 or for those previously updated to work with Sven Fuch's fork of engines, you need to upgrade the schema info table
+db\:migrate_plugins=Migrates installed plugins.
+db\:reset=Drops and recreates the database from db/schema.rb for the current environment and loads the seeds.
+db\:rollback=Rolls the schema back to the previous version. Specify the number of steps with STEP=n
+db\:schema\:dump=Create a db/schema.rb file that can be portably used against any DB supported by AR
+db\:schema\:load=Load a schema.rb file into the database
+db\:seed=Load the seed data from db/seeds.rb
+db\:sessions\:clear=Clear the sessions table
+db\:sessions\:create=Creates a sessions migration for use with ActiveRecord::SessionStore
+db\:setup=Create the database, load the schema, and initialize with the seed data
+db\:structure\:dump=Dump the database structure to a SQL file
+db\:test\:clone=Recreate the test database from the current environment's database schema
+db\:test\:clone_structure=Recreate the test databases from the development structure
+db\:test\:load=Recreate the test database from the current schema.rb
+db\:test\:prepare=Check for pending migrations and load the test schema
+db\:test\:purge=Empty the test database
+db\:version=Retrieves the current schema version number
+default=
+doc=
+doc/api=
+doc/api/index.html=
+doc/app=
+doc/app/index.html=
+doc\:app=Build the RDOC HTML Files
+doc\:clobber=
+doc\:clobber_app=Remove rdoc products
+doc\:clobber_plugins=Remove plugin documentation
+doc\:clobber_rails=Remove rdoc products
+doc\:guides=Generate Rails guides
+doc\:plugins=Generate documentation for all installed plugins
+doc\:plugins\:acts_as_activity_provider=Generate documentation for the acts_as_activity_provider plugin
+doc\:plugins\:acts_as_activity_providerenvironment=Create plugin documentation for 'acts_as_activity_provider'
+doc\:plugins\:acts_as_attachable=Generate documentation for the acts_as_attachable plugin
+doc\:plugins\:acts_as_attachableenvironment=Create plugin documentation for 'acts_as_attachable'
+doc\:plugins\:acts_as_customizable=Generate documentation for the acts_as_customizable plugin
+doc\:plugins\:acts_as_customizableenvironment=Create plugin documentation for 'acts_as_customizable'
+doc\:plugins\:acts_as_event=Generate documentation for the acts_as_event plugin
+doc\:plugins\:acts_as_eventenvironment=Create plugin documentation for 'acts_as_event'
+doc\:plugins\:acts_as_list=Generate documentation for the acts_as_list plugin
+doc\:plugins\:acts_as_listenvironment=Create plugin documentation for 'acts_as_list'
+doc\:plugins\:acts_as_searchable=Generate documentation for the acts_as_searchable plugin
+doc\:plugins\:acts_as_searchableenvironment=Create plugin documentation for 'acts_as_searchable'
+doc\:plugins\:acts_as_tree=Generate documentation for the acts_as_tree plugin
+doc\:plugins\:acts_as_treeenvironment=Create plugin documentation for 'acts_as_tree'
+doc\:plugins\:acts_as_versioned=Generate documentation for the acts_as_versioned plugin
+doc\:plugins\:acts_as_versionedenvironment=Create plugin documentation for 'acts_as_versioned'
+doc\:plugins\:acts_as_watchable=Generate documentation for the acts_as_watchable plugin
+doc\:plugins\:acts_as_watchableenvironment=Create plugin documentation for 'acts_as_watchable'
+doc\:plugins\:awesome_nested_set=Generate documentation for the awesome_nested_set plugin
+doc\:plugins\:awesome_nested_setenvironment=Create plugin documentation for 'awesome_nested_set'
+doc\:plugins\:classic_pagination=Generate documentation for the classic_pagination plugin
+doc\:plugins\:classic_paginationenvironment=Create plugin documentation for 'classic_pagination'
+doc\:plugins\:engines=Generate documentation for the engines plugin
+doc\:plugins\:enginesenvironment=Create plugin documentation for 'engines'
+doc\:plugins\:gravatar=Generate documentation for the gravatar plugin
+doc\:plugins\:gravatarenvironment=Create plugin documentation for 'gravatar'
+doc\:plugins\:open_id_authentication=Generate documentation for the open_id_authentication plugin
+doc\:plugins\:open_id_authenticationenvironment=Create plugin documentation for 'open_id_authentication'
+doc\:plugins\:prepend_engine_views=Generate documentation for the prepend_engine_views plugin
+doc\:plugins\:prepend_engine_viewsenvironment=Create plugin documentation for 'prepend_engine_views'
+doc\:plugins\:rfpdf=Generate documentation for the rfpdf plugin
+doc\:plugins\:rfpdfenvironment=Create plugin documentation for 'rfpdf'
+doc\:plugins\:ruby-net-ldap-0.0.4=Generate documentation for the ruby-net-ldap-0.0.4 plugin
+doc\:plugins\:ruby-net-ldap-0.0.4environment=Create plugin documentation for 'ruby-net-ldap-0.0.4'
+doc\:rails=Build the RDOC HTML Files
+doc\:reapp=Force a rebuild of the RDOC files
+doc\:rerails=Force a rebuild of the RDOC files
+environment=
+extract_fixtures=Create YAML test fixtures from data in an existing database.\nDefaults to development database. Set RAILS_ENV to override.
+gems=List the gems that this rails application depends on
+gems\:base=
+gems\:build=Build any native extensions for unpacked gems
+gems\:build\:force=Force the build of all gems
+gems\:install=Installs all required gems.
+gems\:refresh_specs=Regenerate gem specifications in correct format.
+gems\:unpack=Unpacks all required gems into vendor/gems.
+gems\:unpack\:dependencies=Unpacks all required gems and their dependencies into vendor/gems.
+generate_session_store=Generates a configuration file for cookie store sessions.
+load_default_data=
+locales=Updates and checks locales against en.yml
+locales\:add_key=Adds a new top-level translation string to all locale file (only works for childless keys, probably doesn't work on windows, doesn't check for duplicates).\n\nOptions:\n  key="some_key=foo"\n  key1="another_key=bar"\n  key_fb="foo=bar"         Keys to add in the form key=value, every option of the form key[,\d,_*] will be recognised\n  skip=en,de               Comma-separated list of locale files to ignore (filename without extension)
+locales\:check_interpolation=Checks interpolation arguments in locals against en.yml
+locales\:remove_key=Removes a translation string from all locale file (only works for top-level childless non-multiline keys, probably doesn't work on windows).\n\nOptions:\n  key=key_1,key_2    Comma-separated list of keys to delete\n  skip=en,de         Comma-separated list of locale files to ignore (filename without extension)
+locales\:update=Updates language files based on en.yml content (only works for new top level keys).
+log\:clear=Truncates all *.log files in log/ to zero bytes
+middleware=Prints out your Rack middleware stack
+migrate_from_mantis=
+migrate_from_trac=
+notes=Enumerate all annotations
+notes\:custom=Enumerate a custom annotation, specify with ANNOTATION=WTFHAX
+notes\:fixme=Enumerate all FIXME annotations
+notes\:optimize=Enumerate all OPTIMIZE annotations
+notes\:todo=Enumerate all TODO annotations
+open_id_authentication\:db\:clear=Clear the authentication tables
+open_id_authentication\:db\:create=Creates authentication tables for use with OpenIdAuthentication
+open_id_authentication\:db\:upgrade=Upgrade authentication tables from ruby-openid 1.x.x to 2.x.x
+rails\:freeze\:edge=Lock to latest Edge Rails, for a specific release use RELEASE=1.2.0
+rails\:freeze\:gems=Lock this application to the current gems (by unpacking them into vendor/rails)
+rails\:template=Applies the template supplied by LOCATION=/path/to/template
+rails\:unfreeze=Unlock this application from freeze of gems or edge and return to a fluid use of system gems
+rails\:update=Update both configs, scripts and public/javascripts from Rails
+rails\:update\:application_controller=Rename application.rb to application_controller.rb
+rails\:update\:configs=Update config/boot.rb from your current rails install
+rails\:update\:generate_dispatchers=Generate dispatcher files in RAILS_ROOT/public
+rails\:update\:javascripts=Update your javascripts from your current rails install
+rails\:update\:scripts=Add new scripts to the application script/ directory
+rails_env=
+redmine\:email\:read=Read an email from standard input.\n\nGeneral options:\n  unknown_user=ACTION      how to handle emails from an unknown user\n                           ACTION can be one of the following values:\n                           ignore: email is ignored (default)\n                           accept: accept as anonymous user\n                           create: create a user account\n  no_permission_check=1    disable permission checking when receiving\n                           the email\n  \nIssue attributes control options:\n  project=PROJECT          identifier of the target project\n  status=STATUS            name of the target status\n  tracker=TRACKER          name of the target tracker\n  category=CATEGORY        name of the target category\n  priority=PRIORITY        name of the target priority\n  allow_override=ATTRS     allow email content to override attributes\n                           specified by previous options\n                           ATTRS is a comma separated list of attributes\n\nExamples:\n  # No project specified. Emails MUST contain the 'Project' keyword:\n  rake redmine:email:read RAILS_ENV="production" < raw_email\n\n  # Fixed project and default tracker specified, but emails can override\n  # both tracker and priority attributes:\n  rake redmine:email:read RAILS_ENV="production" \\n                  project=foo \\n                  tracker=bug \\n                  allow_override=tracker,priority < raw_email
+redmine\:email\:receive_imap=Read emails from an IMAP server.\n\nGeneral options:\n  unknown_user=ACTION      how to handle emails from an unknown user\n                           ACTION can be one of the following values:\n                           ignore: email is ignored (default)\n                           accept: accept as anonymous user\n                           create: create a user account\n  no_permission_check=1    disable permission checking when receiving\n                           the email\n  \nAvailable IMAP options:\n  host=HOST                IMAP server host (default: 127.0.0.1)\n  port=PORT                IMAP server port (default: 143)\n  ssl=SSL                  Use SSL? (default: false)\n  username=USERNAME        IMAP account\n  password=PASSWORD        IMAP password\n  folder=FOLDER            IMAP folder to read (default: INBOX)\n  \nIssue attributes control options:\n  project=PROJECT          identifier of the target project\n  status=STATUS            name of the target status\n  tracker=TRACKER          name of the target tracker\n  category=CATEGORY        name of the target category\n  priority=PRIORITY        name of the target priority\n  allow_override=ATTRS     allow email content to override attributes\n                           specified by previous options\n                           ATTRS is a comma separated list of attributes\n                           \nProcessed emails control options:\n  move_on_success=MAILBOX  move emails that were successfully received\n                           to MAILBOX instead of deleting them\n  move_on_failure=MAILBOX  move emails that were ignored to MAILBOX\n  \nExamples:\n  # No project specified. Emails MUST contain the 'Project' keyword:\n  \n  rake redmine:email:receive_iamp RAILS_ENV="production" \\n    host=imap.foo.bar username=redmine@example.net password=xxx\n\n\n  # Fixed project and default tracker specified, but emails can override\n  # both tracker and priority attributes:\n  \n  rake redmine:email:receive_iamp RAILS_ENV="production" \\n    host=imap.foo.bar username=redmine@example.net password=xxx ssl=1 \\n    project=foo \\n    tracker=bug \\n    allow_override=tracker,priority
+redmine\:email\:receive_pop3=Read emails from an POP3 server.\n\nAvailable POP3 options:\n  host=HOST                POP3 server host (default: 127.0.0.1)\n  port=PORT                POP3 server port (default: 110)\n  username=USERNAME        POP3 account\n  password=PASSWORD        POP3 password\n  apop=1                   use APOP authentication (default: false)\n  delete_unprocessed=1     delete messages that could not be processed\n                           successfully from the server (default\n                           behaviour is to leave them on the server)\n\nSee redmine:email:receive_imap for more options and examples.
+redmine\:email\:test[login]=Send a test email to the user with the provided login name
+redmine\:fetch_changesets=Fetch changesets from the repositories
+redmine\:load_default_data=Load Redmine default configuration data. Language is chosen interactively or by setting REDMINE_LANG environment variable.
+redmine\:migrate_from_mantis=Mantis migration script
+redmine\:migrate_from_trac=Trac migration script
+redmine\:permissions=List all permissions and the actions registered with them
+redmine\:plugins\:hook_list=Enumerate all Redmine plugin hooks and their context parameters
+redmine\:send_reminders=Send reminders about issues due in the next days.\n\nAvailable options:\n  * days     => number of days to remind about (defaults to 7)\n  * tracker  => id of tracker (defaults to all trackers)\n  * project  => id or identifier of project (defaults to all projects)\n  * users    => comma separated list of user ids who should be reminded\n\nExample:\n  rake redmine:send_reminders days=7 users="1,23, 56" RAILS_ENV="production"
+redmine\:watchers\:prune=Removes watchers from what they can no longer view.
+routes=Print out all defined routes in match order, with names. Target specific controller with CONTROLLER=x.
+secret=Generate a crytographically secure secret key. This is typically used to generate a secret for cookie sessions.
+stats=Report code statistics (KLOCs, etc) from the application
+test=Run all unit, functional and integration tests
+test\:benchmark=Run tests for benchmarkdb:test:prepare / Benchmark the performance tests
+test\:coverage=Measures test coverage
+test\:engines\:all=Run tests from within engines plugins (plugins with an 'app' directory)
+test\:engines\:functionals=Run tests for functionalstest:plugins:setup_plugin_fixtures
+test\:engines\:integration=Run tests for integrationtest:plugins:setup_plugin_fixtures
+test\:engines\:units=Run tests for unitstest:plugins:setup_plugin_fixtures
+test\:functionals=Run tests for functionalsdb:test:prepare / Run the functional tests in test/functional
+test\:integration=Run tests for integrationdb:test:prepare / Run the integration tests in test/integration
+test\:plugins=Run tests for pluginsenvironment / Run the plugin tests in vendor/plugins/*/**/test (or specify with PLUGIN=name)
+test\:plugins\:all=Run the plugin tests in vendor/plugins/**/test (or specify with PLUGIN=name)
+test\:plugins\:functionals=Run tests for functionalssetup_plugin_fixtures
+test\:plugins\:integration=Run tests for integrationsetup_plugin_fixtures
+test\:plugins\:setup_plugin_fixtures=Mirrors plugin fixtures into a single location to help plugin tests
+test\:plugins\:units=Run tests for unitssetup_plugin_fixtures
+test\:profile=Run tests for profiledb:test:prepare / Profile the performance tests
+test\:recent=Run tests for recentdb:test:prepare / Test recent changes
+test\:scm=Run unit and functional scm tests
+test\:scm\:functionals=Run tests for functionalsdb:test:prepare / Run the scm functional tests
+test\:scm\:setup\:all=Creates all test repositories
+test\:scm\:setup\:bazaar=Creates a test bazaar repository
+test\:scm\:setup\:create_dir=Creates directory for test repositories
+test\:scm\:setup\:cvs=Creates a test cvs repository
+test\:scm\:setup\:darcs=Creates a test darcs repository
+test\:scm\:setup\:filesystem=Creates a test filesystem repository
+test\:scm\:setup\:git=Creates a test git repository
+test\:scm\:setup\:mercurial=Creates a test mercurial repository
+test\:scm\:setup\:subversion=Creates a test subversion repository
+test\:scm\:units=Run tests for unitsdb:test:prepare / Run the scm unit tests
+test\:scm\:update=Updates installed test repositories
+test\:uncommitted=Run tests for uncommitteddb:test:prepare / Test changes since last checkin (only Subversion and Git)
+test\:units=Run tests for unitsdb:test:prepare / Run the unit tests in test/unit
+test\:warn_about_multiple_plugin_testing_with_engines=
+time\:zones\:all=Displays names of all time zones recognized by the Rails TimeZone class, grouped by offset. Results can be filtered with optional OFFSET parameter, e.g., OFFSET=-6
+time\:zones\:local=Displays names of time zones recognized by the Rails TimeZone class with the same offset as the system local time
+time\:zones\:us=Displays names of US time zones recognized by the Rails TimeZone class, grouped by offset. Results can be filtered with optional OFFSET parameter, e.g., OFFSET=-6
+tmp\:cache\:clear=Clears all files and directories in tmp/cache
+tmp\:clear=Clear session, cache, and socket files from tmp/
+tmp\:create=Creates tmp directories for sessions, cache, sockets, and pids
+tmp\:pids\:clear=Clears all files in tmp/pids
+tmp\:sessions\:clear=Clears all files in tmp/sessions
+tmp\:sockets\:clear=Clears all files in tmp/sockets
